@@ -1,4 +1,4 @@
-## ***Updated CISC. 4900 Project 
+## ***Updated CISC. 4900 Project v2 (deprecated)
 
 # NowServiceIt
 
