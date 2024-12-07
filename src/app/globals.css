@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,h2,h3,h4 { @apply font-bold;}
+  
+  h1 {@apply text-4xl;  margin: 0 0 5px 0;}
+  h2 {@apply text-3xl;}
+  h3 {@apply text-2xl;}
+  h4 {@apply text-xl;}
+  p {@apply text-sm;}
+}
+ form{@apply p-3}
+ label {@apply mt-3}
+ input, select, textarea {@apply p-0.5}
+
+
+@layer components {
+  .icon {
+    @apply text-gray-500 text-xl; /* Changed text-default-text to text-gray-500 */
+  }
+  .btn {
+  
+    @apply :hover:no-underline bg-accent hover:bg-hover-accent tracking-wider w-full text-nav font-bold cursor-pointer uppercase px-5 transition-colors block;
+  }
+}
